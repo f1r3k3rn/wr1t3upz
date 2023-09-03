@@ -1,0 +1,16 @@
+[book]
+title = "wr1t3upz"
+authors = ["f1r3k3rn"]
+description = "wr1t3upz?!"
+src = "src"
+language = "en"
+
+[output.html.code.hidelines]
+python = "~"
+
+[output.html]
+default-theme = "Coal"
+git-repository-url = "https://github.com/f1r3k3rn/wr1t3upz/"
+git-repository-icon = "fa-github"
+mathjax-support = true
+site-url = "/mdBook/"
