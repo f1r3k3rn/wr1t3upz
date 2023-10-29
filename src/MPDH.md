@@ -155,16 +155,16 @@ let's analyze init creates a list of n elements from 0 to 31 and then mixes them
 ```
 
 now let's see mul for those who don't know this Python syntax very well you always have to think the other way around reading from right to left so mul takes as input two arrays of size 32 (in our case)
-we call \\[(x,a)\\] the pair of the first array e
-\\[(i,y,b)\\] the triple of the second therefore
-\\[a\\] and \\[b\\] will be multiplied if and only if \\[i=x\\] finally
-we will return the pair \\[(y,a*b)\\]
+we call \\((x,a)\\) the pair of the first array e
+\\((i,y,b)\\) the triple of the second therefore
+\\(a\\) and \\(b\\) will be multiplied if and only if \\(i=x\\) finally
+we will return the pair \\((y,a*b)\\)
 
 ## STRATEGY
 
 the first thing that needs to be kept in mind is that when we multiply each element of the two arrays it will have a unique correspondence, the second thing that needs to be kept in mind is what we want to 
 
-the first thing that needs to be kept in mind is that when we multiply each element of the two arrays it will have a unique correspondence, the second thing that needs to be kept in mind is what we analyzed before, this function performs multiplications, if it didn't mess up the multiplications, what would it be? \\[ dlog(n=q,a=B[0],b=G[0]) \\]
+the first thing that needs to be kept in mind is that when we multiply each element of the two arrays it will have a unique correspondence, the second thing that needs to be kept in mind is what we analyzed before, this function performs multiplications, if it didn't mess up the multiplications, what would it be? \\( dlog(n=q,a=B[0],b=G[0]) \\)
 our goal is to arrive at a discrete logarithm so the thing that immediately comes to mind is there will be a period in which the permutation resets and gives us the possibility of grouping the factors
 
 letz see!
