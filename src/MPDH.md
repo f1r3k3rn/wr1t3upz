@@ -232,4 +232,4 @@ we have three options
 
 we choose the third because \\(\sqrt{45922162480592077} = 214294569\\) and the  others factors are negligible
 
-# solution : [solve.py](./solve.py)
+# solution : [solve.py](./MPDH/solve.py)
