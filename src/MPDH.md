@@ -201,34 +201,36 @@ letz see!
 what did I do here?
 I simply went to test my theory , the generator at a certain point will become a basic permutation 0,1,2,3 ... 31 and after 40 steps we see that the permutation repeats so the period is **40**
 
-now we just need to put things together use \\[ pow(40) \\] and \\[ pow(80) \\]
+now we just need to put things together use \\( pow(40) \\) and \\( pow(80) \\)
 what does that mean?
 
 1) wants to multiply 40 times and arrive at the permutation 0,1,2,3,
 
 2) wants to multiply  80 times and arriving at the permutation 0,1,2,3
 
-but if the indices are equal if the quantities by which we are multiplying are equal as I said before we group the factors,therefore raising by a number \\[ x \\] means raising the ith position
-\\[ \lfloor{x/40}\rfloor \\] times and then use mul the remaining \\[ x\bmod40 \\] times
+but if the indices are equal if the quantities by which we are multiplying are equal as I said before we group the factors,therefore raising by a number \\( x \\) means raising the ith position
+\\( \lfloor{x/40}\rfloor \\) times and then use mul the remaining \\( x\bmod40 \\) times
 at this point we have our dlog problem but what about the complexity?do you remember q
+
 ```python
 q=1161847121043741987678715951
 phi= q-1 = 2 * 3 * (5**2) * 8237 * 20477 * 45922162480592077
 ```
+
 we have three options
 
-1) bsgs "baby step giant step" \\[ \mathcal{O}(\sqrt{q}) \\]
+1) bsgs "baby step giant step" \\( \mathcal{O}(\sqrt{q}) \\)
 
     https://en.wikipedia.org/wiki/Baby-step_giant-step
 
-2) pollard rho is heuristic but is about the same complexity as bsgs   \\[\mathcal{O}(\sqrt{q}*"it depends") \\]
+2) pollard rho is heuristic but is about the same complexity as bsgs   \\(\mathcal{O}(\sqrt{q}*"it depends") \\)
 
     https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm
 
-3) Pohlig–Hellman algorithm the complexity is let n be the number of distinct factors let \\[ phi[i] \\] how many times this factor is repeated in phi ,so we have \\[ \mathcal{O}(\sum_{i=0}^{n}\sqrt{phi[i]}*\log n)) \\]
+3) Pohlig–Hellman algorithm the complexity is let n be the number of distinct factors let \\( phi[i] \\) how many times this factor is repeated in phi ,so we have \\( \mathcal{O}(\sum_{i=0}^{n}\sqrt{phi[i]}*\log n)) \\)
 
     https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm
 
-we choose the third because \\[ \sqrt{45922162480592077} = 214294569 \\] and the  others factors are negligible
+we choose the third because \\( \sqrt{45922162480592077} = 214294569 \\) and the  others factors are negligible
 
 # solution : [solve.py](./solve.py)
