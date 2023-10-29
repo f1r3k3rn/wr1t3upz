@@ -5,7 +5,6 @@ Author: @lrnzsir
 description: Just another Diffie-Hellman, but what group are we in?
 points: 474
 difficulty: easy/medium
-link: [https://ctf.srdnlen.it/challenges#challenge-11]
 ```
 ### ATTACHMENTS:
 
@@ -120,7 +119,7 @@ _I like thinking backwards, it makes it easier to both explain and understand:_
             return P
 ```
 
-We can see that it reflects the implementation of fast pow but we don't know what is G and what mul does so let's understand the final part of our scripts (fast pow)->"[https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/]"
+We can see that it reflects the implementation of fast pow but we don't know what is G and what mul does so let's understand the final part of our scripts (fast pow)->"<https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/>"
 
 ```python
     n = 32
@@ -221,15 +220,15 @@ we have three options
 
 1) bsgs "baby step giant step" \\( \mathcal{O}(\sqrt{q}) \\)
 
-    [https://en.wikipedia.org/wiki/Baby-step_giant-step]
+    <https://en.wikipedia.org/wiki/Baby-step_giant-step>
 
 2) pollard rho is heuristic but is about the same complexity as bsgs \\(\mathcal{O}(\sqrt{q}*"it depends") \\)
 
-    [https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm]
+    <https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm>
 
 3) Pohlig–Hellman algorithm the complexity is let n be the number of distinct factors let \\( phi[i] \\) how many times this factor is repeated in phi ,so we have \\( \mathcal{O}(\sum_{i=0}^{n}\sqrt{phi[i]}*\log n)) \\)
 
-    [https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm]
+    <https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm>
 
 we choose the third because \\(\sqrt{45922162480592077} = 214294569\\) and the  others factors are negligible
 
