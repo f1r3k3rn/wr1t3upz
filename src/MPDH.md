@@ -161,8 +161,6 @@ we will return the pair \\((y,a*b)\\)
 
 ## STRATEGY
 
-the first thing that needs to be kept in mind is that when we multiply each element of the two arrays it will have a unique correspondence, the second thing that needs to be kept in mind is what we want to 
-
 the first thing that needs to be kept in mind is that when we multiply each element of the two arrays it will have a unique correspondence, the second thing that needs to be kept in mind is what we analyzed before, this function performs multiplications, if it didn't mess up the multiplications, what would it be? \\( dlog(n=q,a=B[0],b=G[0]) \\)
 our goal is to arrive at a discrete logarithm so the thing that immediately comes to mind is there will be a period in which the permutation resets and gives us the possibility of grouping the factors
 
