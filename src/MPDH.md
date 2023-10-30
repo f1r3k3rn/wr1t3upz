@@ -154,7 +154,7 @@ let's analyze init creates a list of n elements from 0 to 31 and then mixes them
 ```
 
 now let's see mul for those who don't know this Python syntax very well you always have to think the other way around reading from right to left so mul takes as input two arrays of size 32 (in our case)
-we call \\((x,a)\\) the pair of the first array e
+we call \\((x,a)\\) the pair of the first array and
 \\((i,y,b)\\) the triple of the second therefore
 \\(a\\) and \\(b\\) will be multiplied if and only if \\(i=x\\) finally
 we will return the pair \\((y,a*b)\\)
