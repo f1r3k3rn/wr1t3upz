@@ -8,9 +8,9 @@ difficulty: easy/medium
 ```
 ### ATTACHMENTS:
 
-- [chall.py](./MPDH/chall.py)
+- [chall.py](./chall.py)
 
-- [output.txt](./MPDH/output.txt)
+- [output.txt](./output.txt)
 
 ### MY APPROACH
 
@@ -230,4 +230,4 @@ we have three options
 
 we choose the third because \\(\sqrt{45922162480592077} = 214294569\\) and the  others factors are negligible
 
-# solution : [solve.py](./MPDH/solve.py)
+## solution : [solve.py](./solve.py)
