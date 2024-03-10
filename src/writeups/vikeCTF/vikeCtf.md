@@ -8,8 +8,8 @@ Why? it's 11pm , I'm writing in markdown , I want to die because I have universi
 
 ## CLOUD
 
-1. My Buddy Erik
-2. Silly Software
+1. [My Buddy Erik]()
+2. [Silly Software]()
 
 ## CRYPTO
 1. [Norse Cryptogram](./norse_cryptogram.md)
