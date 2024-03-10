@@ -18,24 +18,24 @@ Why? it's 11pm , I'm writing in markdown , I want to die because I have universi
 
 ## MISC
 
-1. The Usual
-2. Hidden Valor
-3. Hidden Treasure
-4. Time to attack
-5. Robo Erik
+1. [The Usual](./the_usual.md)
+2. [Hidden Valor]()
+3. [Hidden Treasure]()
+4. [Time to attack]()
+5. [Robo Erik]()
 
 
 ## REVERSE 
 
-1. Program With Jokes 
+1. [Program With Jokes]()
 2. [Blackjack](./blackjack.md) 
 
 P.P.S : we solved blackjack with an unintended solution
 
 ## WEB
 
-1. vikeMERCH
-2. Ponies
-3. Jarls Weakened Trust
-3. movieDB
+1. [vikeMERCH]()
+2. [Ponies]()
+3. [Jarls Weakened Trust]()
+3. [movieDB]()
 
