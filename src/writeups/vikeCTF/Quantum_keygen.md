@@ -29,5 +29,5 @@ we obtain the following string and use cyberchef again :
 flag:vikeCTF{QU4N7UM_C0MPU71N6_15_C001}
 ```
 
-![alt text](image-6.png)
+![alt text](./image-6.png)
 

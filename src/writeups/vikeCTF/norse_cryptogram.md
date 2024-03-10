@@ -9,14 +9,14 @@ we have a file where a cypher is applied where the following is written inside t
 
 this is the same methodology of the last challenge basically **cyberchef is gonna carry us** just put inside and click the magic wand. 
 
-![alt text](image-2.png)
+![alt text](./image-2.png)
 
 convert these numbers to letters we obtain this garbage but don't worry **cyberchef is gonna carry us again**
  
-![alt text](image-3.png)
+![alt text](./image-3.png)
 
  ***magnificent**! now click on the wand and use rot13*
 
- ![alt text](image-4.png)
+ ![alt text](./image-4.png)
 
  cyberchef: full carry gg ez 

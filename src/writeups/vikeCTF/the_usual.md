@@ -13,7 +13,7 @@ we dont have enough money tho!
 
 to buy it we need to look at the **read_uint** function
 
-![alt text](the-usual.png)
+![alt text](./the-usual.png)
 ###### i aint readin allat ######
 
 for some magical reason ```stroul("0anystring",0LL,10)``` returns 0 but passes all the checks

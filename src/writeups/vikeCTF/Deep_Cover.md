@@ -48,7 +48,7 @@ Soooo my steps were these:
 
 the 3 was the right path , so i suggest [dcode](https://www.dcode.fr/monoalphabetic-substitution) to attack these types of challenges , now it's ez we copy paste the ciphertext in to decode ,click on decrypt automatically  and boom magic we have the full text
 
-![alt text](image.png)
+![alt text](./image.png)
 
 having the following plaintext it s obv that this is not the right flag we need to repect upper/lower case letters and substitute the X with v for this flag:
 
@@ -56,4 +56,4 @@ having the following plaintext it s obv that this is not the right flag we need 
 vikeCTF{6u5ting_7O_50_KM_p3r_h0ur}
 ```
 
-![alt text](image-1.png)
+![alt text](./image-1.png)

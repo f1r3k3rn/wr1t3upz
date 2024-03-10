@@ -18,7 +18,7 @@ that can be used to predict every card that will show up in the game by reversin
 
 ## AND THEN, THERE IS ME i got bored and opened 2 connections at the same time. 
 
-![alt text](blackjack.png) 
+![alt text](./blackjack.png) 
 
 on one connection we just always bet 0 to see the cards (on the right)
 
@@ -31,4 +31,4 @@ on one connection we just always bet 0 to see the cards (on the right)
 i find this much more convenient as reversing the rng would still require writing a script or playing by hand 
 
 ### ✨✨*make it simple*✨ ✨
-![alt- text](image-5.png)
+![alt- text](./image-5.png)
