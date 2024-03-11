@@ -8,7 +8,7 @@ text: usless
 
 This challenge is a lot of guessing :
 
-this challenge was very strange, it's not difficult, it's simply confusing, we have a file that is characterized by 3 strings, one binary and the other two made up of "HX" chars, in reality the first thing that came to mind was comparing the three strings since they are of equal length I thought perhaps when the two strings composed of H and it has to come out and the only way is through that string.
+this challenge was very strange, it's not difficult, it's simply confusing, we have a file that is characterized by 3 strings, one binary and the other two made up of "HX" chars, Actually the first thing that came to mind was comparing the three strings since they are of equal length. I thought perhaps when the two strings composed of H and it has to come out and the only way is through that string.
 
 this is the script
 
