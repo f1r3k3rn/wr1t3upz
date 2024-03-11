@@ -50,4 +50,10 @@
 ### - srdlen
 - [MPDH](./writeups/MPDH/MPDH.md)
 - [vikeCTF](./writeups/vikeCTF/vikeCtf.md)
+  1. [Norse Cryptogram](./vikeCTF/norse_cryptogram.md)
+  2. [Deep Cover](./vikeCTF/Deep_Cover.md)
+  3. [Quantum Keygen Quest](./vikeCTF/Quantum_keygen.md)
+  4. [The Usual](./vikeCTF/the_usual.md)
+  5. [Blackjack](./vikeCTF/blackjack.md) 
+  
 
