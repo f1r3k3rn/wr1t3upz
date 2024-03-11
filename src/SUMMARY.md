@@ -4,9 +4,7 @@
    
    - [CRYPTO  MPDH](writeups/MPDH/MPDH.md)
 
--  [vike 2024]()
-
-     - [summary](writeups/vikeCTF/vikeCtf.md)
+-  [vike 2024](writeups/vikeCTF/vikeCtf.md)
      - [CRYPTO  Norse Cryptogram](writeups/vikeCTF/norse_cryptogram.md)
      - [CRYPTO  Deep Cover](writeups/vikeCTF/Deep_Cover.md)  
      - [CRYPTO  Quantum Keygen Quest](writeups/vikeCTF/Quantum_keygen.md)
