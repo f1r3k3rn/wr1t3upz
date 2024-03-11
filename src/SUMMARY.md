@@ -1,10 +1,11 @@
 # Writeups
 
--  [srdlen 2023](https://srdnlen.it/)
+-  [srdlen 2023]()
    
    - [CRYPTO  MPDH](writeups/MPDH/MPDH.md)
 
--  [vike 2024](https://ctf.vikesec.ca/)
+-  [vike 2024]()
+
      - [summary](writeups/vikeCTF/vikeCtf.md)
      - [CRYPTO  Norse Cryptogram](writeups/vikeCTF/norse_cryptogram.md)
      - [CRYPTO  Deep Cover](writeups/vikeCTF/Deep_Cover.md)  
