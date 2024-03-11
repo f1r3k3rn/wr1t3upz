@@ -29,7 +29,7 @@ Gzbnyx: Mlkdnx. 60 tfzmfah mryamf kg lborh qakv ba hrf yghfzakka. Vban qkdhr 40 
 Qyhdznyx: Rfycx qakv pfobaabao ba hrf skzabao. Yskdah 40 hk 45 ms. Vban akzhrfyqh 30 us/r cbufMHG{6d5hbao_7k_50_US_t3z_r0dz}. Hfstfzyhdzf zbqbao hk sbadq 10 px fcfabao. Vban mrbll afyz sbadq 21.
 ```
 
-I want the writeup to be as close to people who have recently started , so I will be very simple.
+I want the writeup to be understandable even by those who are just starting out. So I will try to explain it simply
 We have a cyphertext where we can see that there is something that is similar to the flag cbufMHG{6d5hbao_7k_50_US_t3z_r0dz} 
 
 what we can do ? 
@@ -38,7 +38,7 @@ what we can do ?
 
 why?
 
-becouse when u are in a situation like this one it's a lot of **guessing the cipher** ,Soooo my steps were these:
+because when u are in a situation like this one it's a lot of **guessing the cipher** ,Soooo my steps were these:
 
 1. rot13
 2. vigenere with this key ZFNYMHFN
