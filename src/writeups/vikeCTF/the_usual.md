@@ -15,7 +15,7 @@ to buy it we need to look at the **read_uint** function
 
 ###### i aint readin allat ######
 
-for some magical reason ```stroul("0anystring",0LL,10)``` returns 0 but passes all the checks
+as is it stated in the documentation ```stroul("0anystring",0LL,10)``` returns 0 because the string interpretation stops at the first symbol that isn't valid in the base (third parameter) and it passes all the checks
 
 now inside the **print_stand** function we can do a ret to win to **print_flag**
 
