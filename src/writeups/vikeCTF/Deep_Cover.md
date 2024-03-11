@@ -5,7 +5,7 @@ text:
 As the Viking ship sailed across the vast North Sea, its crew encountered unexpected turbulence in the form of a message. Amidst the rugged expanse of the waters, a messenger bird descended, bearing a weather report inscribed in Cyrillic script. With furrowed brows, the Norsemen deciphered the ominous tidings, seeking the hidden meaning within.
 ```
 
-we have a file where a cypher is applied where the following is written inside the following cyphertext
+we have a file where a cypher is applied let'see :
 
 ```
 ** Vfyhrfz Zftkzh: Skqmkv **
@@ -29,7 +29,7 @@ Gzbnyx: Mlkdnx. 60 tfzmfah mryamf kg lborh qakv ba hrf yghfzakka. Vban qkdhr 40 
 Qyhdznyx: Rfycx qakv pfobaabao ba hrf skzabao. Yskdah 40 hk 45 ms. Vban akzhrfyqh 30 us/r cbufMHG{6d5hbao_7k_50_US_t3z_r0dz}. Hfstfzyhdzf zbqbao hk sbadq 10 px fcfabao. Vban mrbll afyz sbadq 21.
 ```
 
-I want the writeup to be as close to people who have recently started so I will be very simple and detailed .
+I want the writeup to be as close to people who have recently started , so I will be very simple.
 We have a cyphertext where we can see that there is something that is similar to the flag cbufMHG{6d5hbao_7k_50_US_t3z_r0dz} 
 
 what we can do ? 
@@ -38,22 +38,20 @@ what we can do ?
 
 why?
 
-becouse when u are in situation like this one it's a lot of guessing .
-
-Soooo my steps were these:
+becouse when u are in a situation like this one it's a lot of **guessing the cipher** ,Soooo my steps were these:
 
 1. rot13
 2. vigenere with this key ZFNYMHFN
 3. **monoalphabetic substitution cypher**
 
-the 3 was the right path , so i suggest [dcode](https://www.dcode.fr/monoalphabetic-substitution) to attack these types of challenges , now it's ez we copy paste the ciphertext in to decode ,click on decrypt automatically  and boom magic we have the full text
+the 3th was the right path ,i suggest [dcode](https://www.dcode.fr/monoalphabetic-substitution) to attack these types of challenges , now it's ez we copy paste the ciphertext in to decode ,click on decrypt automatically  and we have the full plain text.
 
 ![alt text](./image.png)
-
-having the following plaintext it s obv that this is not the right flag we need to repect upper/lower case letters and substitute the X with v for this flag:
-
-```
-vikeCTF{6u5ting_7O_50_KM_p3r_h0ur}
-```
-
 ![alt text](./image-1.png)
+
+it s obv that this is not the right flag we need to respect upper/lower case letters and substitute the X with v :
+
+```
+flag: vikeCTF{6u5ting_7O_50_KM_p3r_h0ur}
+```
+

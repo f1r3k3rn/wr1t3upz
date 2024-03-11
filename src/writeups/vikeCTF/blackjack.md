@@ -8,8 +8,8 @@ As I stepped into the bustling casino, the air was thick with anticipation. My e
 nc 35.94.129.106 3002
 ```
 
+## TL;TR
 looking at the disassebled binary we can see that it uses an lcg for the rng and the **current time to the second as the seed**.
-
 that can be used to predict every card that will show up in the game by reversing the rng and B or maybe we could open a session and see if going back with the timestampo we hit the right seed Blah Blah Blah.
 
 ### there are people who have reversed this challenge and wrote a script  
@@ -30,5 +30,5 @@ on one connection we just always bet 0 to see the cards (on the right)
 
 i find this much more convenient as reversing the rng would still require writing a script or playing by hand 
 
-### ✨✨*make it simple*✨ ✨
+### ✨✨*make it simple not harder*✨ ✨
 ![Alt text](./image-5.png)
