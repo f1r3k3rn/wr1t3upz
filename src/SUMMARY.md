@@ -10,6 +10,7 @@
      - [CRYPTO  Quantum Keygen Quest](writeups/vikeCTF/Quantum_keygen.md)
      - [MISC The Usual](writeups/vikeCTF/the_usual.md)
      - [REV **unintended** Blackjack](writeups/vikeCTF/blackjack.md)
+     - test
 
   
 
